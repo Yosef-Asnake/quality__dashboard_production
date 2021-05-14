@@ -63,4 +63,6 @@ jobs:
             ${{ secrets.FIREBASE_SERVICE_ACCOUNT_QUALITY_DASHBOARD_STAGING
             }}
           channelId: live
-          projectId: quality-dashboard-stagin-875d2
+          projectId: quality-dashboard-stagin-13dd8
+
+          
