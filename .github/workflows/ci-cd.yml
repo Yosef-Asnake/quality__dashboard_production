@@ -38,10 +38,10 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: >-
-            ${{ secrets.FIREBASE_SERVICE_ACCOUNT_QUALITY_DASHBOARD_PRODUC_69B3C
+            ${{ secrets.FIREBASE_SERVICE_ACCOUNT_QUALITY_DASHBOARD_PRODUC_BA416
             }}
           channelId: live
-          projectId: quality-dashboard-produc-69b3c
+          projectId: quality-dashboard-produc-ba416
   
   deploy_to_staging:
     if: github.ref == 'refs/heads/staging'
